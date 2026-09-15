@@ -3533,14 +3533,6 @@
 		(color 0 0 0 0)
 		(uuid "c0ba6655-92fa-4d3d-a0d3-2f2d1b0e8c92")
 	)
-	(no_connect
-		(at 120.65 77.47)
-		(uuid "2a0d7833-2b65-4d83-9d5f-b46919e1d2f4")
-	)
-	(no_connect
-		(at 120.65 85.09)
-		(uuid "e225717d-e911-4ba8-adc6-2af00b1223b9")
-	)
 	(wire
 		(pts
 			(xy 86.36 80.01) (xy 95.25 80.01)
@@ -3620,6 +3612,16 @@
 			(type default)
 		)
 		(uuid "30bc3197-6db8-42c1-9958-08bdac76daab")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ad67c7-3fa8-457b-a8de-869854109e51")
 	)
 	(wire
 		(pts
@@ -3873,6 +3875,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd610f07-a028-4fb4-ad81-032af6b4754e")
+	)
+	(wire
+		(pts
 			(xy 124.46 80.01) (xy 134.62 80.01)
 		)
 		(stroke
@@ -3940,6 +3952,16 @@
 			(type default)
 		)
 		(uuid "f41bf1b1-bea0-4fb1-8e66-b9810f537710")
+	)
+	(wire
+		(pts
+			(xy 121.92 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41dd43b-63cf-4867-a017-72a0cff4c152")
 	)
 	(label "VRef"
 		(at 67.31 66.04 0)
